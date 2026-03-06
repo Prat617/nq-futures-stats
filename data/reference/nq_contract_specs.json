@@ -1,0 +1,18 @@
+{
+  "symbol": "NQ",
+  "name": "E-mini Nasdaq-100 Futures",
+  "exchange": "CME Globex",
+  "currency": "USD",
+  "tick_size": 0.25,
+  "tick_value": 5.00,
+  "point_value": 20.00,
+  "contract_size": "$20 x Nasdaq-100 Index",
+  "contract_months": {"H": "March", "M": "June", "U": "September", "Z": "December"},
+  "trading_hours": {
+    "globex": {"start": "17:00 CT (Sunday)", "end": "16:00 CT (Friday)", "daily_halt": "16:00 - 17:00 CT"},
+    "rth": {"start": "08:30 CT", "end": "15:15 CT"}
+  },
+  "settlement": "Cash Settled",
+  "last_trading_day": "Third Friday of contract month",
+  "price_limits": {"limit_down_1": "7%", "limit_down_2": "13%", "limit_down_3": "20%"}
+}

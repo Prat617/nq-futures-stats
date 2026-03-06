@@ -1,0 +1,19 @@
+data_sources:
+  cme:
+    base_url: "https://www.cmegroup.com"
+    product_code: "NQ"
+    exchange: "CME Globex"
+date_range:
+  start_date: "2020-01-01"
+  end_date: "2026-12-31"
+contract:
+  symbol: "NQ"
+  tick_size: 0.25
+  tick_value: 5.00
+  point_value: 20.00
+  contract_months: ["H", "M", "U", "Z"]
+storage:
+  raw_data_path: "data/raw"
+  processed_data_path: "data/processed"
+  reference_data_path: "data/reference"
+  export_format: "csv"
